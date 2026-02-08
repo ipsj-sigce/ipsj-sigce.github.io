@@ -1,0 +1,20 @@
+site_name: 情報処理学会 コンピュータと教育研究会
+nav:
+    - CE研とは？: about.md
+    - 研究発表会:
+          - 研究発表会: ce/index.md
+          - 過去の研究発表会: ce/archive.md
+          - 参加方法: ce/howto.md
+    - 情報教育シンポジウム（SSS）: sss/index.md
+    - 役員:
+        - 役員: comittee/index.md
+        - 歴代の主査・幹事: comittee/history.md
+theme:
+    name: material
+    favicon: favicon.ico
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - attr_list
+    - md_in_html
