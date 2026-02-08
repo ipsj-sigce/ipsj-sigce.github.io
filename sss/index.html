@@ -1,0 +1,944 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../ce/howto/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>情報教育シンポジウム（SSS） - 情報処理学会 コンピュータと教育研究会</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="情報処理学会 コンピュータと教育研究会" class="md-header__button md-logo" aria-label="情報処理学会 コンピュータと教育研究会" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            情報処理学会 コンピュータと教育研究会
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              情報教育シンポジウム（SSS）
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="情報処理学会 コンピュータと教育研究会" class="md-nav__button md-logo" aria-label="情報処理学会 コンピュータと教育研究会" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    情報処理学会 コンピュータと教育研究会
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE研とは？
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究発表会
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    研究発表会
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ce/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    研究発表会
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ce/archive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    過去の研究発表会
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ce/howto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    参加方法
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    情報教育シンポジウム（SSS）
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    情報教育シンポジウム（SSS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        次回のSSSの実施場所・日程・組織
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sss_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        これまでのSSSの実施場所・日程・組織
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    役員
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    役員
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comittee/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    役員
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comittee/history.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    歴代の主査・幹事
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        次回のSSSの実施場所・日程・組織
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sss_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        これまでのSSSの実施場所・日程・組織
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<!-- -Sではじまる地名の場所で、毎年夏に開催される「情報教育」のシンポジウムです。 -->
+<!-- -SSSと略しています。 -->
+
+<h1 id="_1">情報教育シンポジウムについて</h1>
+<p>情報処理学会コンピュータと教育研究会は、情報教育や教育の情報化に関する問題やアイデアなどについて、情報教育や教育学習支援システムの専門家、初等中等教育の教員を中心とする教育の専門家、教育ソフトウェア・教育コンテンツ作成に関わる企業の専門家など、幅広い分野の方々と議論を深める場として、情報教育シンポジウムSSSを1999年以来開催しています。</p>
+<h2 id="sss">次回のSSSの実施場所・日程・組織</h2>
+<table>
+<thead>
+<tr>
+<th>年度</th>
+<th>開催場所</th>
+<th>日程</th>
+<th>大会委員長</th>
+<th>実行委員長</th>
+<th>プログラム委員長</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SSS2026<br>Setouchi</td>
+<td>瀬戸内<br>広島県内</td>
+<td>8月下旬</td>
+<td>〓<br>（〓）</td>
+<td>〓<br>（〓）</td>
+<td>〓 <br>（〓）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sss_1">これまでのSSSの実施場所・日程・組織</h2>
+<table>
+<thead>
+<tr>
+<th>年度</th>
+<th>開催場所</th>
+<th>日程</th>
+<th>大会委員長</th>
+<th>実行委員長</th>
+<th style="text-align: center;">プログラム委員長</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="2025/">SSS2025</a><br>Seaside</td>
+<td>シーサイド（臨海副都心）<br>武蔵野大学 有明キャンパス</td>
+<td>8/19(火)-21(木)</td>
+<td>林 浩一<br>（武蔵野大）</td>
+<td>鈴木 大助<br>（北陸大/武蔵野大）</td>
+<td style="text-align: center;">隅谷 孝洋 <br>（広島大）</td>
+</tr>
+<tr>
+<td><a href="2024/">SSS2024</a><br>Shimotsuke</td>
+<td>下野國<br>ライトキューブ宇都宮</td>
+<td>8/10(土)-12(月祝)</td>
+<td>長瀧 寛之<br>（大阪大）</td>
+<td>天野 由貴<br>（帝京大）</td>
+<td style="text-align: center;">斎藤 俊則<br>（星槎大）</td>
+</tr>
+<tr>
+<td><a href="2023/">SSS2023</a><br>Shinjuku</td>
+<td>新宿<br>工学院大学</td>
+<td>8/18(金)-20(日)</td>
+<td>中野 由章<br>（工学院大学附属中・高）</td>
+<td>三浦 元喜<br>（千葉工業大）</td>
+<td style="text-align: center;">遠山 紗矢香<br>（静岡大）</td>
+</tr>
+<tr>
+<td>SSS2022</td>
+<td>&gt;</td>
+<td>&gt;</td>
+<td>&gt;</td>
+<td>&gt;</td>
+<td style="text-align: center;">（<a href="https://wcce2022.org/">WCCE2022</a>開催のため休止）</td>
+</tr>
+<tr>
+<td><a href="2021/">SSS2021</a></td>
+<td>オンライン開催</td>
+<td>8/28(土)-29(日)</td>
+<td>井上 仁<br>（群馬大）</td>
+<td>関谷 貴之<br>（東京大）</td>
+<td style="text-align: center;">越智 徹<br>（大阪工業大）</td>
+</tr>
+<tr>
+<td><a href="2020/">SSS2020</a></td>
+<td>オンライン開催</td>
+<td>12/19(土)-20(日)</td>
+<td>安浦 寛人<br>（元九州大）</td>
+<td>井上 仁<br>（群馬大）</td>
+<td style="text-align: center;">隅谷 孝洋<br>（広島大）</td>
+</tr>
+<tr>
+<td><a href="2019/">SSS2019</a><br>Sasara</td>
+<td>讃良郡（河内國）<br>大阪電気通信大学</td>
+<td>8/17(土)-19(月)</td>
+<td>都倉 信樹<br>（大阪電気通信大）</td>
+<td>兼宗 進<br>（大阪電気通信大）</td>
+<td style="text-align: center;">長瀧 寛之<br>（大阪電気通信大）</td>
+</tr>
+<tr>
+<td><a href="2018/">SSS2018</a><br>Shiranui-sea</td>
+<td>不知火海<br>湯の児 海と夕やけ</td>
+<td>8/19(日)-21(火)</td>
+<td>中野 裕司<br>（熊本大）</td>
+<td>久保田真一郎<br>（熊本大）</td>
+<td style="text-align: center;">西田 知博<br>（大阪学院大）</td>
+</tr>
+<tr>
+<td><a href="2017/">SSS2017</a><br>Sakura</td>
+<td>佐倉<br>ウィシュトンホテル・ユーカリ</td>
+<td>8/17(木)-19(土)</td>
+<td>辰己 丈夫<br>（放送大）</td>
+<td>佐久間 拓也<br>（文教大）</td>
+<td style="text-align: center;">重田 勝介<br>（北海道大）</td>
+</tr>
+<tr>
+<td><a href="2016/">SSS2016</a><br>Shin-Hakodate-Hokuto</td>
+<td>新函館北斗<br>グリーンピア大沼</td>
+<td>8/22(月)-24(水)</td>
+<td>片桐 恭弘<br>（公立はこだて未来大）</td>
+<td>大場 みち子<br>（公立はこだて未来大）</td>
+<td style="text-align: center;">永井 孝幸<br>（京都工芸繊維大）</td>
+</tr>
+<tr>
+<td><a href="2015/">SSS2015</a><br>Sakaiminato</td>
+<td>境港<br>境港マリーナホテル</td>
+<td>8/17(月)-19(水)</td>
+<td>鈴木 貢<br>（島根大）</td>
+<td>中野 由章<br>（神戸市立科学技術高）</td>
+<td style="text-align: center;">林 雄介<br>（広島大）</td>
+</tr>
+<tr>
+<td><a href="2014/">SSS2014</a><br>Shodoshima</td>
+<td>小豆島<br>オリビアン小豆島</td>
+<td>8/24(日)-26(火)</td>
+<td>西田 知博<br>（大阪学院大）</td>
+<td>富永 浩之<br>（香川大）</td>
+<td style="text-align: center;">角田 博保<br>（電気通信大）</td>
+</tr>
+<tr>
+<td><a href="2013/">SSS2013</a><br>Shizukuishi</td>
+<td>雫石<br>休暇村岩手網張温泉</td>
+<td>8/18(日)-20(火)</td>
+<td>竹村 治雄<br>（大阪大）</td>
+<td>高木 正則<br>（岩手県立大）</td>
+<td style="text-align: center;">長瀧 寛之<br>（岡山大）</td>
+</tr>
+<tr>
+<td><a href="2012/">SSS2012</a><br>Shizuoka</td>
+<td>静岡・清水<br>三保園ホテル</td>
+<td>8/20(月)-22(水)</td>
+<td>鈴木 直義<br>（静岡県立大）</td>
+<td>湯瀬 裕昭<br>（静岡県立大）</td>
+<td style="text-align: center;">竹村 治雄<br>（大阪大）</td>
+</tr>
+<tr>
+<td><a href="2011/">SSS2011</a><br>Setouchi</td>
+<td>瀬戸内<br>岡山いこいの村</td>
+<td>8/18(木)-20(土)</td>
+<td>角田 博保<br>（電気通信大）</td>
+<td>長瀧 寛之<br>（岡山大）</td>
+<td style="text-align: center;">西田 知博<br>（大阪学院大）</td>
+</tr>
+<tr>
+<td><a href="2010/">SSS2010</a><br>Shibukawa</td>
+<td>渋川・伊香保温泉<br>雨情の湯 森秋</td>
+<td>8/18(水)-20(金)</td>
+<td>佐渡 一広<br>（群馬大）</td>
+<td>渡辺 博芳<br>（帝京大）</td>
+<td style="text-align: center;">辰己 丈夫<br>（東京農工大）</td>
+</tr>
+<tr>
+<td><a href="2009/">SSS2009</a><br>Saga</td>
+<td>佐賀・唐津<br>国民宿舎虹の松原ホテル</td>
+<td>8/19(水)-21(金)</td>
+<td>松浦 敏雄<br>（大阪市立大）</td>
+<td>林 敏浩<br>（香川大）<br>渡辺 健次<br>（佐賀大）</td>
+<td style="text-align: center;">金子 敬一<br>（東京農工大）</td>
+</tr>
+<tr>
+<td><a href="2008/">SSS2008</a><br>Samdo</td>
+<td>三徒（済州）<br>済州大学<br>済州オリエンタルホテル</td>
+<td>8/19(火)-21(木)</td>
+<td>和田 勉<br>（長野大）</td>
+<td>中野 由章<br>（千里金蘭大）</td>
+<td style="text-align: center;">兼宗 進<br>（一橋大）</td>
+</tr>
+<tr>
+<td><a href="2007/">SSS2007</a><br>Suzuka</td>
+<td>鈴鹿<br>三重県勤労者福祉センター希望荘</td>
+<td>8/26(日)-28(火)</td>
+<td>奥村 晴彦<br>（三重大）</td>
+<td>田中 雅章<br>（鈴鹿短期大）</td>
+<td style="text-align: center;">中野 由章<br>（千里金蘭大）</td>
+</tr>
+<tr>
+<td><a href="2006/">SSS2006</a><br>Sengokuhara</td>
+<td>仙石原<br>駿台箱根セミナーハウス紅雲荘</td>
+<td>8/26(土)-28(月)</td>
+<td>神沼 靖子</td>
+<td>辰己 丈夫<br>（東京農工大）</td>
+<td style="text-align: center;">並木 美太郎<br>（東京農工大）</td>
+</tr>
+<tr>
+<td><a href="2005/">SSS2005</a><br>Shiribeshi</td>
+<td>後志<br>ヤマハリゾートキロロ</td>
+<td>8/21(日)-23(火)</td>
+<td>川合 慧<br>（東京大）</td>
+<td>岡部 成玄<br>（北海道大）</td>
+<td style="text-align: center;">立田 ルミ<br>（獨協大）</td>
+</tr>
+<tr>
+<td><a href="http://ce.eplang.jp/SSS2004/">SSS2004</a><br>Shinshu</td>
+<td>信州・戸倉上山田温泉<br>ホテル清風園</td>
+<td>8/28(土)-30(月)</td>
+<td>川合 慧<br>（東京大）</td>
+<td>和田 勉<br>（長野大）</td>
+<td style="text-align: center;">竹田 尚彦<br>（愛知教育大）</td>
+</tr>
+<tr>
+<td><a href="http://ce.eplang.jp/SSS2003/">SSS2003</a><br>Shizuoka</td>
+<td>静岡・浜松<br>スズキ荘観月園</td>
+<td>8/22(金)-24(日)</td>
+<td>川合 慧<br>（東京大）</td>
+<td>阿部 圭一<br>（静岡大）</td>
+<td style="text-align: center;">西田 知博<br>（大阪学院大）</td>
+</tr>
+<tr>
+<td><a href="http://ce.eplang.jp/SSS2002/">SSS2002</a><br>Sanda</td>
+<td>三田<br>関西学院神戸三田キャンパス<br>関西学院千刈セミナーハウス</td>
+<td>8/21(水)-23(金)</td>
+<td>雄山 真弓<br>（関西学院大）</td>
+<td>中條 道雄<br>（関西学院大）</td>
+<td style="text-align: center;">中西 通雄<br>（大阪大）</td>
+</tr>
+<tr>
+<td><a href="https://web.archive.org/web/20090430173628/http://www.tbgu.ac.jp:80/cstt/kami/sss2001/">SSS2001</a><br>Shinshu</td>
+<td>信州・戸倉上山田温泉<br>ホテル清風園</td>
+<td>8/21(火)-23(木)</td>
+<td>堀内 征治<br>（長野高専）</td>
+<td>和田 勉<br>（長野大）</td>
+<td style="text-align: center;">香川 修見<br>（大阪学院大）</td>
+</tr>
+<tr>
+<td><a href="https://web.archive.org/web/20090430175448/http://www.tbgu.ac.jp:80/cstt/kami/sss2000/">SSS2000</a><br>Shinshu</td>
+<td>信州・戸倉上山田温泉<br>上山田文化会舘<br>ホテル清風園</td>
+<td>7/29(土)-31(月)</td>
+<td>武井 惠雄<br>（帝京大）</td>
+<td>堀内 征治<br>（長野高専）</td>
+<td style="text-align: center;">松浦 敏雄<br>（大阪市立大）</td>
+</tr>
+<tr>
+<td><a href="https://web.archive.org/web/20070812111104/http://www.tbgu.ac.jp/cstt/kami/sss99/">SSS99</a><br>Shinshu</td>
+<td>信州・東筑摩郡坂井村<br>冠着荘</td>
+<td>7/28(水)-30(金)</td>
+<td>大岩 元<br>（慶應義塾大）</td>
+<td>和田 勉<br>（長野大）</td>
+<td style="text-align: center;">駒谷 昇一<br>（NTTソフト）</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>所属は当時のものです。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
