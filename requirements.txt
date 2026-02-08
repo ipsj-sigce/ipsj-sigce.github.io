@@ -1,2 +1,4 @@
 mkdocs
 mkdocs-material
+string-scanner
+git+https://github.com/tableau-tables/python-tableau-parser

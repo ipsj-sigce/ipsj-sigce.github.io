@@ -7,14 +7,19 @@ nav:
       - 参加方法: ce/howto.md
   - 情報教育シンポジウム（SSS）: sss/index.md
   - 役員:
-      - 役員: comittee/index.md
-      - 歴代の主査・幹事: comittee/history.md
+      - 役員: committee/index.md
+      - 歴代の主査・幹事: committee/history.md
 theme:
   name: material
   favicon: favicon.ico
+  language: ja
+extra:
+  search:
+    language: jp
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  - mdx_tableau
