@@ -1,29 +1,41 @@
 # 情報処理学会「コンピュータと教育研究会」メーリングリスト
-2024年4月現在、当研究会では「情報教育メーリングリスト（informatics ML *1）」を公開運用しています。
 
-(*1: 旧 informationstudy ML)
+2024年4月現在、当研究会では「情報教育メーリングリスト（informatics ML \*1）」を公開運用しています。
+
+(\*1: 旧 informationstudy ML)
+
 <!-- ,名称 -->
 <!-- ,sigce ML -->
 <!-- ,informationstudy ML -->
 <!-- informatics ML -->
+
 ## MLの趣旨
+
 <!-- :sigce ML|情報処理学会事務局にメールアドレスを登録している「コンピュータと教育研究会登録会員」限定のメーリングリストです。 -->
-:informatics ML|情報教育に関するいろいろな話題を扱うメーリングリストです。 情報処理学会会員のみならず、 多くの人の参加を希望しています。 
+
+:informatics ML|情報教育に関するいろいろな話題を扱うメーリングリストです。 情報処理学会会員のみならず、 多くの人の参加を希望しています。
+
 # informatics MLへの参加
+
 <!-- ※現在，自動登録ができない状態です． -->
 <!-- 登録依頼は随時受け付けておりますので，登録を希望される方は幹事を含む運営委員経由でご連絡ください． -->
+
 informatics ML への登録，アドレス変更，退会については，[こちらのフォーム](https://forms.gle/PcKRd4YeFFGTeN4J6)からお知らせください．<br>
 問い合わせを受けての対応になりますので，少し時間がかかりますがご了承ください．
+
 <!-- [[旧フォーム:https://forms.gle/DMA9GT4t1wxUKMDdA]] -->
 <!-- :informationstudy MLへ登録を希望される方|https://mc2-ml.osakac.ac.jp/mailman/listinfo/informationstudy をご覧ください． -->
 <!-- ,sigce MLの場合,→,http://eplang.jp/mailman/listinfo/sigce/ -->
 <!-- ,informationstudy MLの場合,→,http://eplang.jp/mailman/listinfo/informationstudy/ -->
 <!-- をご覧ください． -->
 <!-- :登録アドレス変更・脱退などの方法|上記ページから行えます -->
+
 # 御発言の際は、以下にご注意下さい。
+
 <!-- - 発言の著作権は発言者にありますが、発言内容は、メーリングリストにおける配送の他に、次のURLを使って公開されます。 -->
 <!-- -- http://ce.tt.tuat.ac.jp/ML/sigce/ -->
 <!-- -- http://ce.tt.tuat.ac.jp/ML/informationstudy/ -->
+
 - このメーリングリストに発言されるということは、発言についての公衆送信可能化権を、メーリングリスト管理者に認めたとみなします。
 - 原著作者は法的に認められる範囲と解される引用を禁止できません。
 - 発言内容に関する責任・信憑性の確保の義務は発言者にあり、 メーリングリスト管理者はその責任を持ちません。
