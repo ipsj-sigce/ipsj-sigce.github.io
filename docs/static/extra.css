@@ -1,0 +1,42 @@
+:root {
+  --text-color: #000000de;
+  --ce-blue: #5eb3e1;
+  --ce-green: #96c65a;
+}
+
+.md-header {
+  background-color: var(--ce-green);
+}
+
+.md-logo {
+  transform: scale(150%) translateX(20%);
+}
+
+.md-typeset h1 {
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 180%;
+}
+
+.md-typeset h2 {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 180%;
+}
+
+.md-typeset h3 {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 180%;
+}
+
+.md-typeset p {
+  line-height: 180%;
+}
+
+.md-footer {
+  display: none;
+}

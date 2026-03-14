@@ -11,8 +11,11 @@ nav:
       - 歴代の主査・幹事: committee/history.md
 theme:
   name: material
+  logo: static/logo.png
   favicon: favicon.ico
   language: ja
+extra_css:
+  - static/extra.css
 extra:
   search:
     language: jp
